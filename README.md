@@ -147,10 +147,10 @@ Classifier | Accuracy
 
 Best Model **RandomForestClassifier**
 
-#
+
 
 Gender         | precision |   recall |  f1-score |  support
--------------- | --------- | -------- | --------- | ------
+---------------|---------- |--------|---------|------
       female   |    0.77   |   0.83   |   0.80    |   232
         male   |    0.80   |   0.74   |   0.77    |   218
    micro avg   |    0.78   |   0.78   |   0.78    |   450
