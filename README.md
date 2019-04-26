@@ -74,13 +74,13 @@ Classifier | Accuracy
 
 Best Model **RandomForestClassifier**
 
- Author       | precision  |  recall  |  f1-score |  support
---------------|------------|----------|-----------|---------
-         bot  |     0.98   |   0.97   |     0.98  |    622
-       human  |     0.97   |   0.98   |    0.98   |    614
-   micro avg  |     0.98   |   0.98   |   0.98    |   1236
-   macro avg  |     0.98   |   0.98   |   0.98    |   1236
-weighted avg  |     0.98   |   0.98   |   0.98    |   1236
+| Author       | precision  |  recall  |  f1-score |  support
+|--------------|------------|----------|-----------|---------
+|         bot  |     0.98   |   0.97   |     0.98  |    622
+|       human  |     0.97   |   0.98   |    0.98   |    614
+|   micro avg  |     0.98   |   0.98   |   0.98    |   1236
+|   macro avg  |     0.98   |   0.98   |   0.98    |   1236
+|weighted avg  |     0.98   |   0.98   |   0.98    |   1236
 
 __________________________________________________
 
@@ -97,13 +97,13 @@ Classifier | Accuracy
 
 Best Model **RandomForestClassifier**
 
-Gender         | precision |   recall | f1-score  | support
----------------|---------- | -------- |-----------|-------
-      female   |    0.79   |    0.85  |    0.82   |    311
-        male   |    0.83   |    0.77  |    0.80   |    307
-   micro avg   |    0.81   |    0.81  |    0.81   |    618
-   macro avg   |    0.81   |    0.81  |    0.81   |    618
-weighted avg   |    0.81   |    0.81  |    0.81   |    618
+|Gender         | precision |   recall | f1-score  | support
+|---------------|---------- | -------- |-----------|-------
+|      female   |    0.79   |    0.85  |    0.82   |    311
+|        male   |    0.83   |    0.77  |    0.80   |    307
+|   micro avg   |    0.81   |    0.81  |    0.81   |    618
+|   macro avg   |    0.81   |    0.81  |    0.81   |    618
+|weighted avg   |    0.81   |    0.81  |    0.81   |    618
 
 ________________________________________
 
@@ -153,6 +153,7 @@ Best Model **RandomForestClassifier**
 |---------------|:---------- |:----------|:-----------|:---------
 |      female   |    0.77   |   0.83   |   0.80    |   232
 |        male   |    0.80   |   0.74   |   0.77    |   218
+|||||
 |   micro avg   |    0.78   |   0.78   |   0.78    |   450
 |   macro avg   |    0.79   |   0.78   |   0.78    |   450
 |weighted avg   |    0.79   |   0.78   |   0.78    |   450
@@ -160,4 +161,4 @@ Best Model **RandomForestClassifier**
 
 
 _________________________________
-\
+
