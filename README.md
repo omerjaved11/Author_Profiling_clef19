@@ -149,13 +149,14 @@ Best Model **RandomForestClassifier**
 
 
 
-Gender         | precision |  
----------------|---------- |
-      female   |    0.77   | 
-        male   |    0.80   | 
-   micro avg   |    0.78   |   
-   macro avg   |    0.79   | 
-weighted avg   |    0.79   |  
+Gender         | precision |   recall |  f1-score |  support
+---------------|---------- |----------|-----------|---------
+      female   |    0.77   |   0.83   |   0.80    |   232
+        male   |    0.80   |   0.74   |   0.77    |   218
+   micro avg   |    0.78   |   0.78   |   0.78    |   450
+   macro avg   |    0.79   |   0.78   |   0.78    |   450
+weighted avg   |    0.79   |   0.78   |   0.78    |   450
+
 
 
 _________________________________
