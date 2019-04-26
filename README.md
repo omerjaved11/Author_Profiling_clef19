@@ -81,6 +81,7 @@ Best Model **RandomForestClassifier**
    micro avg  |     0.98   |   0.98   |   0.98    |   1236
    macro avg  |     0.98   |   0.98   |   0.98    |   1236
 weighted avg  |     0.98   |   0.98   |   0.98    |   1236
+
 __________________________________________________
 
 ### Predict Male / Female
