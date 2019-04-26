@@ -124,13 +124,13 @@ Classifier | Accuracy
 
 Best Model **RandomForestClassifier**
 
-Author       |  precision  |  recall |  f1-score|   support
---------------|-------------|---------|----------|----------
-         bot |       0.93  |    0.93 |     0.93 |      440 
-       human |      0.93   |   0.93  |    0.93  |     460  
-   micro avg |      0.93   |   0.93  |    0.93  |     900  
-   macro avg |      0.93   |   0.93  |    0.93  |     900  
-weighted avg |      0.93   |   0.93  |    0.93  |     900  
+|Author       |  precision  |  recall |  f1-score|   support
+|--------------|-------------|---------|----------|----------
+|         bot |       0.93  |    0.93 |     0.93 |      440 
+|       human |      0.93   |   0.93  |    0.93  |     460  
+|   micro avg |      0.93   |   0.93  |    0.93  |     900  
+|   macro avg |      0.93   |   0.93  |    0.93  |     900  
+|weighted avg |      0.93   |   0.93  |    0.93  |     900  
 
 ________________________________________
 
@@ -160,7 +160,4 @@ Best Model **RandomForestClassifier**
 
 
 _________________________________
-
-|  R |  Python |    Matlab |
-| --------- |:---|:---------|:-----|
-| library(tidyverse) |import numpy as np|
+\
