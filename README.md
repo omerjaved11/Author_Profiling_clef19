@@ -1,6 +1,6 @@
 # Pan Author Identification (Bots and Gender Profiling)
 
-Identify Author of tweet on bases of their stylometry and writing style.
+Identify Author of text on bases of their stylometry and writing style.
 
 ## Installation
 
@@ -78,7 +78,6 @@ Best Model **RandomForestClassifier**
 --------------|------------|----------|-----------|---------
          bot  |     0.98   |   0.97   |     0.98  |    622
        human  |     0.97   |   0.98   |    0.98   |    614
-              |            |          |           |
    micro avg  |     0.98   |   0.98   |   0.98    |   1236
    macro avg  |     0.98   |   0.98   |   0.98    |   1236
 weighted avg  |     0.98   |   0.98   |   0.98    |   1236
@@ -101,7 +100,6 @@ Gender         | precision |   recall | f1-score  | support
 ---------------|---------- | -------- |-----------|-------
       female   |    0.79   |    0.85  |    0.82   |    311
         male   |    0.83   |    0.77  |    0.80   |    307
-               |           |          |           |
    micro avg   |    0.81   |    0.81  |    0.81   |    618
    macro avg   |    0.81   |    0.81  |    0.81   |    618
 weighted avg   |    0.81   |    0.81  |    0.81   |    618
@@ -125,14 +123,13 @@ Classifier | Accuracy
 
 Best Model **RandomForestClassifier**
 
-Author       |  precision  |  recall |  f1-score|   support|
-------       |-------------|---------|----------|----------|
-         bot |       0.93  |    0.93 |     0.93 |      440 |
-       human |      0.93   |   0.93  |    0.93  |     460  |
-                           |         |          |          | 
-   micro avg |      0.93   |   0.93  |    0.93  |     900  |
-   macro avg |      0.93   |   0.93  |    0.93  |     900  |
-weighted avg |      0.93   |   0.93  |    0.93  |     900  |
+Author       |  precision  |  recall |  f1-score|   support
+------       |-------------|---------|----------|----------
+         bot |       0.93  |    0.93 |     0.93 |      440 
+       human |      0.93   |   0.93  |    0.93  |     460  
+   micro avg |      0.93   |   0.93  |    0.93  |     900  
+   macro avg |      0.93   |   0.93  |    0.93  |     900  
+weighted avg |      0.93   |   0.93  |    0.93  |     900  
 
 ________________________________________
 
@@ -154,7 +151,6 @@ Gender         | precision |   recall |  f1-score |  support
 -------------- | --------- | -------- | --------- | ------
       female   |    0.77   |   0.83   |   0.80    |   232
         male   |    0.80   |   0.74   |   0.77    |   218
-               |           |          |           | 
    micro avg   |    0.78   |   0.78   |   0.78    |   450
    macro avg   |    0.79   |   0.78   |   0.78    |   450
 weighted avg   |    0.79   |   0.78   |   0.78    |   450
