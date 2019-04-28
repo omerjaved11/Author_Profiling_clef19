@@ -232,9 +232,9 @@ def buildModels(model, features, classLabel, modelname,lang):
 
 
 def runWithLang(input_folder,lang):
-    input_folder = input_folder+lang
+    input_folder = os.path.join(input_folder,lang)
     data = create_data_frame(input_folder)
-    # print(data)
+    # print(data)9mOnelRy
 
     preprocess(data)
 

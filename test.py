@@ -148,7 +148,8 @@ def writefiles(data, output, lang):
     # try:
     #     os.mkdir('output')
     # except Exception as e:
-    #     print(e)
+    #     print(e)    input_folder = input_folder+lang
+
     try:
         os.chdir(output)
     except Exception as e:
@@ -169,7 +170,7 @@ def writefiles(data, output, lang):
         tree.write(row['author_id'] + ".xml")
 
 def runWithLang(input_folder,output_folder,lang):
-    input_folder = input_folder+lang
+    input_folder = os.path.join(input_folder,lang)
     data = create_data_frame(input_folder)
 
     preprocess(data)
@@ -182,8 +183,8 @@ def runWithLang(input_folder,output_folder,lang):
     except Exception as e:
         print(e)
     print(os.getcwd())
-    authormodel = pickle.load(open('models/'+lang+'/modelBotHuman', 'rb'))
-    gendermodel = pickle.load(open('models/'+lang+'/modelMaleFemale', 'rb'))
+    authormodel = pickle.load(open(os.path.join('models',lang,'modelBotHuman'), 'rb'))
+    gendermodel = pickle.load(open(os.path.join('models',lang,'modelMaleFemale'), 'rb'))
 
     author = authormodel.predict(data.drop(['lang', 'text', 'author_id'], axis=1))
     gender = gendermodel.predict(data.drop(['lang', 'text', 'author_id'], axis=1))
@@ -197,7 +198,7 @@ def runWithLang(input_folder,output_folder,lang):
 
 def main():
     global root
-
+    root = os.getcwd()
     input_folder,output_folder = getArg()
     # input_folder, output_folder = '/home/omer/oj/pan Research/test/', '/home/omer/oj/pan Research/output/'
 
