@@ -1,3 +1,14 @@
+# Results From Pan CLEF19 Test Datasets 
+
+| Dataset | lang |  type  | gender |
+|---------|------|--------|--------|
+|    1    |  es  | 0.8611 | 0.7556 |
+|    1    |  en  | 0.9280 | 0.7652 |
+|    2    |  es  | 0.8839 | 0.7261 |
+|    2    |  es  | 0.9227 | 0.7583 |
+
+
+
 # Pan Author Identification (Bots and Gender Profiling)
 
 Identify Author of text on bases of their stylometry and writing style.
@@ -58,7 +69,7 @@ python test.py -i '/input/test/data/'  -o '/output/'
 ```
 
 
-# Results for English:
+# Results for English Train Test Split Dataset:
 ______________________________________
 
 ### Predict Bot / Human
@@ -109,7 +120,7 @@ Best Model **RandomForestClassifier**
 
 ________________________________________
 
-# Results for Spanish:
+# Results for Spanish Train Test Split Dataset:
 
 ________________________________________
 
