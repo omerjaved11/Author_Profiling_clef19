@@ -15,7 +15,7 @@ Identify Author of text on bases of their stylometry and writing style.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required libraries.
 
 ```bash
 pip install -r requirments.txt
