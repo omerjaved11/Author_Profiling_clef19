@@ -1,3 +1,6 @@
+### Notebook for PAN at CLEF 2019 http://ceur-ws.org/Vol-2380/paper_191.pdf
+
+
 # Results From Pan CLEF19 Test Datasets 
 
 | Dataset | lang |  type  | gender |
